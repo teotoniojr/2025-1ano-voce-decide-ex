@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Yusei+Magic&display=swap');
+
+:root {
+    --verde: #1a535cff;
+    --azul: #4ecdc4ff;
+    --branco: #f7fff7ff;
+    --vermelho: #ff6b6bff;
+    --preto: #000000;
+    --texto: "Yusei Magic", sans-serif;
+    --titulo: 'Lobster Two', sans-serif;
+}
+
+body{
+    background-color: var(--verde);
+    color: var(--branco);
+    font-family: var(--texto);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    font-family: var(--texto);
+    background-color: var(--azul);
+    color: var(--branco);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button:hover{
+    background-color: var(--vermelho);
+    transition: 0.5s;
+}
+.passo{
+    display: none;
+}
+.passo.ativo{
+    display: block;
+}
+main{
+    margin-top: 20px;
+    max-width: 90%;
+    text-align: center;
+}
+img{
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
